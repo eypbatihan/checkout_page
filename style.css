@@ -1,0 +1,290 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container {
+  background-color: #d4d4ce;
+  width: 32rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container .bag {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem;
+}
+
+.container .bag img {
+  border-radius: 1rem;
+  width: 8rem;
+  height: 9.5rem;
+  margin-right: 1rem;
+}
+
+.container .bag .name h1 {
+  font-size: 1rem;
+  color: #3d3c3c;
+}
+
+.container .bag .name p {
+  color: #d4941d;
+  font-weight: bolder;
+}
+
+.container .bag .name p span {
+  font-size: 0.7rem;
+  font-weight: 400;
+  color: #3d3c3c;
+  text-decoration: line-through;
+}
+
+.container .bag .quantity {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border: 1px solid #3d3c3c;
+  border-radius: 0.4rem;
+  margin-top: 1.3rem;
+  width: 6rem;
+  height: 1.6rem;
+}
+
+.container .bag .quantity p {
+  background-color: #727070;
+  width: 1rem;
+  border-radius: 0.2rem;
+  height: 1.2rem;
+  text-align: center;
+  margin: 0.1rem;
+  font-size: 0.8rem;
+}
+
+.container .bag .quantity span {
+  font-size: 1rem;
+}
+
+.container .bag .remove {
+  background-color: #9b4e5d;
+  border: none;
+  padding: 0.3rem;
+  margin-top: 0.3rem;
+  border-radius: 0.4rem;
+  color: #d4d4ce;
+  font-weight: 500;
+}
+
+.container .bag .proTotal {
+  margin-top: 0.8rem;
+  font-size: 0.9rem;
+}
+
+.container .shoes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem;
+}
+
+.container .shoes img {
+  border-radius: 1rem;
+  width: 8rem;
+  height: 9.5rem;
+  margin-right: 1rem;
+}
+
+.container .shoes .name h1 {
+  font-size: 1rem;
+  color: #3d3c3c;
+}
+
+.container .shoes .name p {
+  color: #d4941d;
+  font-weight: bolder;
+}
+
+.container .shoes .name p span {
+  font-size: 0.7rem;
+  font-weight: 400;
+  color: #3d3c3c;
+  text-decoration: line-through;
+}
+
+.container .shoes .quantity {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border: 1px solid #3d3c3c;
+  border-radius: 0.4rem;
+  margin-top: 1.3rem;
+  width: 6rem;
+  height: 1.6rem;
+}
+
+.container .shoes .quantity p {
+  background-color: #727070;
+  width: 1rem;
+  border-radius: 0.2rem;
+  height: 1.2rem;
+  text-align: center;
+  margin: 0.1rem;
+  font-size: 0.8rem;
+}
+
+.container .shoes .quantity span {
+  font-size: 1rem;
+}
+
+.container .shoes .remove {
+  background-color: #9b4e5d;
+  border: none;
+  padding: 0.3rem;
+  margin-top: 0.3rem;
+  border-radius: 0.4rem;
+  color: #d4d4ce;
+  font-weight: 500;
+}
+
+.container .shoes .proTotal {
+  margin-top: 0.8rem;
+  font-size: 0.9rem;
+}
+
+.container .clock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem;
+}
+
+.container .clock img {
+  border-radius: 1rem;
+  width: 8rem;
+  height: 9.5rem;
+  margin-right: 1rem;
+}
+
+.container .clock .name h1 {
+  font-size: 1rem;
+  color: #3d3c3c;
+}
+
+.container .clock .name p {
+  color: #d4941d;
+  font-weight: bolder;
+}
+
+.container .clock .name p span {
+  font-size: 0.7rem;
+  font-weight: 400;
+  color: #3d3c3c;
+  text-decoration: line-through;
+}
+
+.container .clock .quantity {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border: 1px solid #3d3c3c;
+  border-radius: 0.4rem;
+  margin-top: 1.3rem;
+  width: 6rem;
+  height: 1.6rem;
+}
+
+.container .clock .quantity p {
+  background-color: #727070;
+  width: 1rem;
+  border-radius: 0.2rem;
+  height: 1.2rem;
+  text-align: center;
+  margin: 0.1rem;
+  font-size: 0.8rem;
+}
+
+.container .clock .quantity span {
+  font-size: 1rem;
+}
+
+.container .clock .remove {
+  background-color: #9b4e5d;
+  border: none;
+  padding: 0.3rem;
+  margin-top: 0.3rem;
+  border-radius: 0.4rem;
+  color: #d4d4ce;
+  font-weight: 500;
+}
+
+.container .clock .proTotal {
+  margin-top: 0.8rem;
+  font-size: 0.9rem;
+}
+
+.container .total {
+  padding: 1rem 5rem 1rem 1rem;
+  font-size: 0.9rem;
+}
+
+.container .total .sub {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-top: 1px solid gray;
+}
+
+.container .total .tax {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-top: 1px solid gray;
+  margin-top: 0.7rem;
+}
+
+.container .total .shipping {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-top: 1px solid gray;
+  margin-top: 0.7rem;
+}
+
+.container .total .all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-top: 1px solid gray;
+  margin-top: 0.7rem;
+}
+/*# sourceMappingURL=style.css.map */

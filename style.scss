@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+$maincolor:#d4d4ce;
+$textcolor1:rgb(61, 60, 60);
+$tetxcolor2:rgb(212, 148, 29);
+$buttoncolor1:rgb(155, 78, 93);
+$buttoncolor2:rgb(114, 112, 112);
+.container{
+    background-color:$maincolor;
+    width: 32rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+    
+       .bag{
+        display: flex;
+        padding: 1rem;
+        img{
+            border-radius: 1rem;
+            width: 8rem;
+            height: 9.5rem;
+            margin-right: 1rem;
+        }
+        .name{
+            h1{
+                font-size: 1rem;
+                color: $textcolor1;
+            }
+            p{
+                color: $tetxcolor2;
+                font-weight: bolder;
+                span{
+                    font-size: 0.7rem;
+                    font-weight: 400;
+                    color: $textcolor1;
+                    text-decoration: line-through;
+                }
+            }
+        }
+        .quantity{
+            display: flex;
+            justify-content: space-around;
+            border: 1px solid $textcolor1;
+            border-radius: 0.4rem;
+            margin-top: 1.3rem;
+            width: 6rem;
+            height: 1.6rem;
+            
+            p{
+                background-color: $buttoncolor2;
+                width: 1rem;
+                border-radius: 0.2rem;    
+                height:1.2rem;
+                text-align: center;
+                margin: 0.1rem;
+                font-size: 0.8rem;
+                
+            }   
+            span{
+                font-size: 1rem;
+            } 
+        }
+        .remove{
+            background-color: $buttoncolor1;
+            border: none;
+            padding: 0.3rem;
+            margin-top: 0.3rem;
+            border-radius: 0.4rem;
+            color:$maincolor;
+            font-weight: 500;
+        }
+        .proTotal{
+            margin-top: 0.8rem;
+            font-size: 0.9rem;
+        }
+    }
+    .shoes{
+        display: flex;
+        padding: 1rem;
+        img{
+            border-radius: 1rem;
+            width: 8rem;
+            height: 9.5rem;
+            margin-right: 1rem;
+        }
+        .name{
+            h1{
+                font-size: 1rem;
+                color: $textcolor1;
+            }
+            p{
+                color: $tetxcolor2;
+                font-weight: bolder;
+                span{
+                    font-size: 0.7rem;
+                    font-weight: 400;
+                    color: $textcolor1;
+                    text-decoration: line-through;
+                }
+            }
+        }
+        .quantity{
+            display: flex;
+            justify-content: space-around;
+            border: 1px solid $textcolor1;
+            border-radius: 0.4rem;
+            margin-top: 1.3rem;
+            width: 6rem;
+            height: 1.6rem;
+            
+            p{
+                background-color: $buttoncolor2;
+                width: 1rem;
+                border-radius: 0.2rem;    
+                height:1.2rem;
+                text-align: center;
+                margin: 0.1rem;
+                font-size: 0.8rem;
+                
+            }   
+            span{
+                font-size: 1rem;
+            } 
+        }
+        .remove{
+            background-color: $buttoncolor1;
+            border: none;
+            padding: 0.3rem;
+            margin-top: 0.3rem;
+            border-radius: 0.4rem;
+            color:$maincolor;
+            font-weight: 500;
+        }
+        .proTotal{
+            margin-top: 0.8rem;
+            font-size: 0.9rem;
+        }
+    }
+    .clock{
+        display: flex;
+        padding: 1rem;
+        img{
+            border-radius: 1rem;
+            width: 8rem;
+            height: 9.5rem;
+            margin-right: 1rem;
+        }
+        .name{
+            h1{
+                font-size: 1rem;
+                color: $textcolor1;
+            }
+            p{
+                color: $tetxcolor2;
+                font-weight: bolder;
+                span{
+                    font-size: 0.7rem;
+                    font-weight: 400;
+                    color: $textcolor1;
+                    text-decoration: line-through;
+                }
+            }
+        }
+        .quantity{
+            display: flex;
+            justify-content: space-around;
+            border: 1px solid $textcolor1;
+            border-radius: 0.4rem;
+            margin-top: 1.3rem;
+            width: 6rem;
+            height: 1.6rem;
+            
+            p{
+                background-color: $buttoncolor2;
+                width: 1rem;
+                border-radius: 0.2rem;    
+                height:1.2rem;
+                text-align: center;
+                margin: 0.1rem;
+                font-size: 0.8rem;
+                
+            }   
+            span{
+                font-size: 1rem;
+            } 
+        }
+        .remove{
+            background-color: $buttoncolor1;
+            border: none;
+            padding: 0.3rem;
+            margin-top: 0.3rem;
+            border-radius: 0.4rem;
+            color:$maincolor;
+            font-weight: 500;
+        }
+        .proTotal{
+            margin-top: 0.8rem;
+            font-size: 0.9rem;
+        }
+    }
+    .total{
+        padding: 1rem 5rem 1rem 1rem;
+        font-size: 0.9rem;
+        .sub{
+            display: flex;
+            justify-content: space-between;
+            border-top: 1px solid gray;
+                    }
+        .tax{
+            display: flex;
+            justify-content: space-between;
+            border-top: 1px solid gray;
+            margin-top: 0.7rem;
+        }
+        .shipping{
+            display: flex;
+            justify-content: space-between;
+            border-top: 1px solid gray;
+            margin-top: 0.7rem;
+        }
+        .all{
+            display: flex;
+            justify-content: space-between;
+            border-top: 1px solid gray;
+            margin-top: 0.7rem;
+        }
+       
+    }
+}
