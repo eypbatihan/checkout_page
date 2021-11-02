@@ -15,46 +15,54 @@ body {
           justify-content: center;
 }
 
-.container {
-  background-color: #d4d4ce;
+.main {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   width: 32rem;
+}
+
+.main .head {
+  color: #3d3c3c;
+  text-align: center;
+}
+
+.main .container {
+  background-color: #d4d4ce;
   margin: 1rem;
   border-radius: 1rem;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.container .bag {
+.main .container .bag {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   padding: 1rem;
 }
 
-.container .bag img {
+.main .container .bag img {
   border-radius: 1rem;
   width: 8rem;
   height: 9.5rem;
   margin-right: 1rem;
 }
 
-.container .bag .name h1 {
+.main .container .bag .name h1 {
   font-size: 1rem;
   color: #3d3c3c;
 }
 
-.container .bag .name p {
+.main .container .bag .name p {
   color: #d4941d;
   font-weight: bolder;
 }
 
-.container .bag .name p span {
+.main .container .bag .name p span {
   font-size: 0.7rem;
   font-weight: 400;
   color: #3d3c3c;
   text-decoration: line-through;
 }
 
-.container .bag .quantity {
+.main .container .bag .quantity {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -67,7 +75,7 @@ body {
   height: 1.6rem;
 }
 
-.container .bag .quantity p {
+.main .container .bag .quantity p {
   background-color: #727070;
   width: 1rem;
   border-radius: 0.2rem;
@@ -77,15 +85,15 @@ body {
   font-size: 0.8rem;
 }
 
-.container .bag .quantity p:hover {
+.main .container .bag .quantity p:hover {
   cursor: pointer;
 }
 
-.container .bag .quantity span {
+.main .container .bag .quantity span {
   font-size: 1rem;
 }
 
-.container .bag .remove {
+.main .container .bag .remove {
   background-color: #9b4e5d;
   border: none;
   padding: 0.3rem;
@@ -95,43 +103,43 @@ body {
   font-weight: 500;
 }
 
-.container .bag .proTotal {
+.main .container .bag .proTotal {
   margin-top: 0.8rem;
   font-size: 0.9rem;
 }
 
-.container .shoes {
+.main .container .shoes {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   padding: 1rem;
 }
 
-.container .shoes img {
+.main .container .shoes img {
   border-radius: 1rem;
   width: 8rem;
   height: 9.5rem;
   margin-right: 1rem;
 }
 
-.container .shoes .name h1 {
+.main .container .shoes .name h1 {
   font-size: 1rem;
   color: #3d3c3c;
 }
 
-.container .shoes .name p {
+.main .container .shoes .name p {
   color: #d4941d;
   font-weight: bolder;
 }
 
-.container .shoes .name p span {
+.main .container .shoes .name p span {
   font-size: 0.7rem;
   font-weight: 400;
   color: #3d3c3c;
   text-decoration: line-through;
 }
 
-.container .shoes .quantity {
+.main .container .shoes .quantity {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -144,7 +152,7 @@ body {
   height: 1.6rem;
 }
 
-.container .shoes .quantity p {
+.main .container .shoes .quantity p {
   background-color: #727070;
   width: 1rem;
   border-radius: 0.2rem;
@@ -154,15 +162,15 @@ body {
   font-size: 0.8rem;
 }
 
-.container .shoes .quantity p:hover {
+.main .container .shoes .quantity p:hover {
   cursor: pointer;
 }
 
-.container .shoes .quantity span {
+.main .container .shoes .quantity span {
   font-size: 1rem;
 }
 
-.container .shoes .remove {
+.main .container .shoes .remove {
   background-color: #9b4e5d;
   border: none;
   padding: 0.3rem;
@@ -172,43 +180,43 @@ body {
   font-weight: 500;
 }
 
-.container .shoes .proTotal {
+.main .container .shoes .proTotal {
   margin-top: 0.8rem;
   font-size: 0.9rem;
 }
 
-.container .clock {
+.main .container .clock {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   padding: 1rem;
 }
 
-.container .clock img {
+.main .container .clock img {
   border-radius: 1rem;
   width: 8rem;
   height: 9.5rem;
   margin-right: 1rem;
 }
 
-.container .clock .name h1 {
+.main .container .clock .name h1 {
   font-size: 1rem;
   color: #3d3c3c;
 }
 
-.container .clock .name p {
+.main .container .clock .name p {
   color: #d4941d;
   font-weight: bolder;
 }
 
-.container .clock .name p span {
+.main .container .clock .name p span {
   font-size: 0.7rem;
   font-weight: 400;
   color: #3d3c3c;
   text-decoration: line-through;
 }
 
-.container .clock .quantity {
+.main .container .clock .quantity {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -221,7 +229,7 @@ body {
   height: 1.6rem;
 }
 
-.container .clock .quantity p {
+.main .container .clock .quantity p {
   background-color: #727070;
   width: 1rem;
   border-radius: 0.2rem;
@@ -231,15 +239,15 @@ body {
   font-size: 0.8rem;
 }
 
-.container .clock .quantity p:hover {
+.main .container .clock .quantity p:hover {
   cursor: pointer;
 }
 
-.container .clock .quantity span {
+.main .container .clock .quantity span {
   font-size: 1rem;
 }
 
-.container .clock .remove {
+.main .container .clock .remove {
   background-color: #9b4e5d;
   border: none;
   padding: 0.3rem;
@@ -249,17 +257,17 @@ body {
   font-weight: 500;
 }
 
-.container .clock .proTotal {
+.main .container .clock .proTotal {
   margin-top: 0.8rem;
   font-size: 0.9rem;
 }
 
-.container .total {
+.main .container .total {
   padding: 1rem 5rem 1rem 1rem;
   font-size: 0.9rem;
 }
 
-.container .total .sub {
+.main .container .total .sub {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -269,18 +277,7 @@ body {
   border-top: 1px solid gray;
 }
 
-.container .total .tax {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  border-top: 1px solid gray;
-  margin-top: 0.7rem;
-}
-
-.container .total .shipping {
+.main .container .total .tax {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -291,7 +288,18 @@ body {
   margin-top: 0.7rem;
 }
 
-.container .total .all {
+.main .container .total .shipping {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-top: 1px solid gray;
+  margin-top: 0.7rem;
+}
+
+.main .container .total .all {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
