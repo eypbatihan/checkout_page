@@ -17,19 +17,19 @@
                     <p>$25.98 <span>$34.99</span></p>
                 </div>
                 <div class="quantity">
-                    <p>-</p>
-                    <span>1</span>
-                    <p>+</p>
+                    <p class="bagdecrease" >-</p>
+                    <span id="bagspan">1</span>
+                    <p class="bagincrease" >+</p>
                 </div>
                 <div class="remo">
                     <button class="remove">Remove</button>
                 </div>
                 <div class="proTotal">
-                    <p>Product Total:</p>
+                    <p id="bagproTotal" >Product Total:$25.98</p>
                 </div>
             </div>
         </div>
-        <div class="shoes">
+        <div class="shoes"> 
             <div class="img"><img src="photo2.png" alt="bag"></div>
             <div class="info">
                 <div class="name">
@@ -37,15 +37,15 @@
                     <p>$45.99 <span>$54.99</span></p>
                 </div>
                 <div class="quantity">
-                    <p>-</p>
-                    <span>1</span>
-                    <p>+</p>
+                    <p class="shoesdecrease">-</p>
+                    <span id="shoesspan">1</span>
+                    <p class="shoesincrease">+</p>
                 </div>
                 <div class="remo">
                     <button class="remove">Remove</button>
                 </div>
-                <div class="proTotal">
-                    <p>Product Total:</p>
+                <div id="shoesproTotal">
+                    <p>Product Total:$45.99</p>
                 </div>
             </div>
         </div>
@@ -57,39 +57,40 @@
                     <p>$74.99 <span>$94.99</span></p>
                 </div>
                 <div class="quantity">
-                    <p>-</p>
-                    <span>1</span>
-                    <p>+</p>
+                    <p class="clockdecrease" >-</p>
+                    <span id="clockspan" >1</span>
+                    <p class="clockincrease" >+</p>
                 </div>
                 <div class="remo">
                     <button class="remove">Remove</button>
                 </div>
-                <div class="proTotal">
-                    <p>Product Total:</p>
+                <div id="clockproTotal">
+                    <p>Product Total:$74.99</p>
                 </div>
             </div>
         </div>
         <div class="total">
             <div class="sub">
                 <p>Subtotal</p>
-                <p class="subtotal">$</p>
+                <p id="subtotal">$146.97</p>
             </div>
             <div class="tax">
                 <p>Tax(%18)</p>
-                <p class="taxtotal">$</p>
+                <p id="taxtotal">$26.45</p>
             </div>
             <div class="shipping">
                 <p>Shipping</p>
-                <p class="shippingtotal">$</p>
+                <p id="shippingtotal">$15.00</p>
             </div>
             <div class="all">
                 <p>Total</p>
-                <p class="alltotal">$</p>
+                <p id="alltotal">$188.42</p>
             </div>
 
 
 
         </div>
     </div>
+    <script src="app.js"></script>
 </body>
 </html>
