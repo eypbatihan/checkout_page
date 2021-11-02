@@ -18,6 +18,8 @@ body {
 .container {
   background-color: #d4d4ce;
   width: 32rem;
+  margin: 1rem;
+  border-radius: 1rem;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -73,6 +75,10 @@ body {
   text-align: center;
   margin: 0.1rem;
   font-size: 0.8rem;
+}
+
+.container .bag .quantity p:hover {
+  cursor: pointer;
 }
 
 .container .bag .quantity span {
@@ -148,6 +154,10 @@ body {
   font-size: 0.8rem;
 }
 
+.container .shoes .quantity p:hover {
+  cursor: pointer;
+}
+
 .container .shoes .quantity span {
   font-size: 1rem;
 }
@@ -219,6 +229,10 @@ body {
   text-align: center;
   margin: 0.1rem;
   font-size: 0.8rem;
+}
+
+.container .clock .quantity p:hover {
+  cursor: pointer;
 }
 
 .container .clock .quantity span {

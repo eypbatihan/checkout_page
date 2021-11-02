@@ -18,6 +18,8 @@ $buttoncolor2:rgb(114, 112, 112);
 .container{
     background-color:$maincolor;
     width: 32rem;
+    margin: 1rem;
+    border-radius: 1rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
     
@@ -31,6 +33,8 @@ $buttoncolor2:rgb(114, 112, 112);
             height: 9.5rem;
             margin-right: 1rem;
         }
+       
+       
         .name{
             h1{
                 font-size: 1rem;
@@ -64,6 +68,9 @@ $buttoncolor2:rgb(114, 112, 112);
                 text-align: center;
                 margin: 0.1rem;
                 font-size: 0.8rem;
+                &:hover{
+                    cursor: pointer;
+                }
                 
             }   
             span{
@@ -126,6 +133,9 @@ $buttoncolor2:rgb(114, 112, 112);
                 text-align: center;
                 margin: 0.1rem;
                 font-size: 0.8rem;
+                &:hover{
+                    cursor: pointer;
+                }
                 
             }   
             span{
@@ -188,6 +198,9 @@ $buttoncolor2:rgb(114, 112, 112);
                 text-align: center;
                 margin: 0.1rem;
                 font-size: 0.8rem;
+                &:hover{
+                    cursor: pointer;
+                }
                 
             }   
             span{
